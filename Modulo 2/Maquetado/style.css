@@ -1,0 +1,65 @@
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: #0a66c2;
+}
+
+.mat-card#first-card{
+    padding: 0;
+}
+
+div#profile-background {
+    display: flex;
+    z-index: 1;
+}
+
+div#profile-background img {
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: auto;/*-110*/
+    z-index: 1;
+}
+
+.logo-unq{
+    width: 40%;
+    height: 40%;
+}
+
+
+.btn-right{
+    background-color: #0a66c2;
+    border-radius: 30px;
+    margin-top: auto;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 9px;
+    float: right;
+   
+    
+
+}
+
+.button {
+    background-color: #13AFDF;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    }
+
+.button:hover {
+    background-color: #FB7E29;
+    color: #fff;
+    }
